@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-universe-hub main</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="text-center py-[50px]">
+            <h1 class="text-[45px] font-semibold text-[#111111]">AI Universe Hub</h1>
+            <button class="btn btn-outline btn-secondary">Secondary</button>
+        </div>
+    </header>
+    <main class="container mx-auto my-5">
+        <section>
+            <div id="min-contains" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+            </div>
+            <div id="morebutton" class="text-center py-8">
+                <button class="btn btn-outline btn-secondary">See More</button>
+            </div>
+        </section>
+
+        <!-- You can open the modal using ID.showModal() method -->
+    
+    <dialog id="show_details_model" class="modal">
+    <div class="modal-box max-w-[70rem] p-[50px]">
+        <form method="dialog">
+        <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+        </form>
+        <div id="sobdhukabo">
+           
+        </div>
+     
+    </div>
+    </dialog>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
